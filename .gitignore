@@ -1,0 +1,112 @@
+############################
+# SISTEMA OPERATIVO
+############################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+############################
+# IDEs / EDITORES
+############################
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.factorypath
+.springBeans
+.sts4-cache/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+############################
+# MAVEN
+############################
+
+# Directorio de compilación
+target/
+
+# Archivos temporales
+*.log
+
+# Wrapper de Maven (NO IGNORAR)
+# mvnw
+# mvnw.cmd
+# .mvn/wrapper/maven-wrapper.jar
+# .mvn/wrapper/maven-wrapper.properties
+
+############################
+# SPRING BOOT / PROYECTO
+############################
+
+# Archivos de entorno
+.env
+.env.*
+
+# Configuraciones locales
+application-local.yml
+application-local.properties
+
+# Configuraciones sensibles
+application-prod.yml
+application-prod.properties
+
+# Logs
+logs/
+*.log
+
+# Archivos temporales
+tmp/
+temp/
+
+############################
+# TESTS / COBERTURA
+############################
+
+# JaCoCo
+jacoco.exec
+jacoco/
+coverage/
+
+############################
+# DOCKER (si aplica)
+############################
+
+# Volúmenes locales
+docker-data/
+data/
+
+############################
+# OTROS
+############################
+
+# Archivos de respaldo
+*.bak
+*.swp
+*.swo
